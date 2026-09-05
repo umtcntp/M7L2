@@ -2,7 +2,7 @@ from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 
-
+print("test")
 
 def get_class(model_path, labels_path, image_path):
     np.set_printoptions(suppress=True)
